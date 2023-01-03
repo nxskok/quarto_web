@@ -6,8 +6,7 @@ format:
     df-print: paged
 ---
 
-This dataset contains a subset of the fuel economy data from the EPA.
-Specifically, we use the `mpg` dataset from the **ggplot2** package.
+This dataset contains a subset of the fuel economy data from the EPA. Specifically, we use the `mpg` dataset from the **ggplot2** package.
 
 ```{r}
 #| label: load-packages
@@ -24,10 +23,9 @@ Here is the cars data:
 mpg
 ```
 
-::: {.callout-note}
+::: callout-note
 There are some graphs coming.
 :::
-
 
 ```{r}
 #| label: fig-mpg
@@ -49,7 +47,4 @@ ggplot(mpg, aes(x = hwy, y = cty, color = displ)) +
   theme_minimal()
 ```
 
-The plots in @fig-mpg show the relationship between city and highway mileage for 38 popular models of cars. The original dataset is shown in @tbl-mpg.
-In @fig-mpg-1 the points are coloured by the number of cylinders while in @fig-mpg-2 the points are coloured by engine displacement.
-
-
+The plots in @fig-mpg show the relationship between city and highway mileage for 38 popular models of cars. The original dataset is shown in @tbl-mpg. In @fig-mpg-1 the points are coloured by the number of cylinders while in @fig-mpg-2 the points are coloured by engine displacement.
