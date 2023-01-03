@@ -1,0 +1,9 @@
+---
+title: "quarto_web"
+---
+
+This is a Quarto website.
+
+[Here is my first quarto file](hello.qmd).
+
+And here is [the second one](computations.qmd).
